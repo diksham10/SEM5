@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Head">
+      <h1>Sign Up</h1>
+      <h4>Let's get connected</h4>
+    </div>
+
+    <div class="Container">
+      <form>
+        <div class="Inputs">
+          <label for="Name"> Name :</label>
+          <input type="text" name="Name" id="Name" />
+        </div>
+        <div class="Inputs">
+          <label for="emailId">Email: </label>
+          <input type="email" name="emailId" id="emailId"
+        </div>
+        <div class="Inputs">
+          <label for="pass">Password :</label>
+          <input type="password" name="pass" id="pass" />
+        </div>
+        <div class="Inputs">
+          <label>Gender:</label>
+          <div id="radiobtn">
+            <label for="sex">Male</label>
+            <input type="radio" name="sex" id="sex" />
+            <label for="sex">Female</label>
+            <input type="radio" name="sex" id="sex" />
+            <label for="sex">Others</label>
+            <input type="radio" name="sex" id="sex" />
+          </div>
+        </div>
+        <div class="Inputs">
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday" />
+        </div>
+      </form>
+      <div class="Inputs">
+        <input type="submit" value="Submit" id="submitBtn" />
+      </div>
+    </div>
+  </body>
+</html>
